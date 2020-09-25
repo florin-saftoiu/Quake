@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gas2masm", "gas2masm\gas2masm.vcxproj", "{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winquake", "WinQuake.vcxproj", "{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		GL Debug|x86 = GL Debug|x86
+		GL Release|x86 = GL Release|x86
+		Release|x86 = Release|x86
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}.Debug|x86.ActiveCfg = Debug|Win32
+		{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}.Debug|x86.Build.0 = Debug|Win32
+		{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}.GL Debug|x86.ActiveCfg = Debug|Win32
+		{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}.GL Debug|x86.Build.0 = Debug|Win32
+		{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}.GL Release|x86.ActiveCfg = Release|Win32
+		{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}.GL Release|x86.Build.0 = Release|Win32
+		{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}.Release|x86.ActiveCfg = Release|Win32
+		{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}.Release|x86.Build.0 = Release|Win32
+		{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}.Template|x86.ActiveCfg = Debug|Win32
+		{95AC97E7-2453-4464-9F2C-8AC0EC22DD80}.Template|x86.Build.0 = Debug|Win32
+		{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}.Debug|x86.ActiveCfg = Debug|Win32
+		{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}.Debug|x86.Build.0 = Debug|Win32
+		{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}.GL Debug|x86.ActiveCfg = GL Debug|Win32
+		{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}.GL Debug|x86.Build.0 = GL Debug|Win32
+		{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}.GL Release|x86.ActiveCfg = GL Release|Win32
+		{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}.GL Release|x86.Build.0 = GL Release|Win32
+		{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}.Release|x86.ActiveCfg = Release|Win32
+		{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}.Release|x86.Build.0 = Release|Win32
+		{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}.Template|x86.ActiveCfg = Template|Win32
+		{E7C22EEF-BE38-4000-931F-2D8B0C3E39CA}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {684FBAD6-DBCF-4A9C-9F40-2143F6197518}
+	EndGlobalSection
+EndGlobal
