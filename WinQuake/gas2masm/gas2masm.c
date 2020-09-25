@@ -33,7 +33,7 @@ typedef enum {NOT_WHITESPACE, WHITESPACE, TOKEN_AVAILABLE, LINE_DONE, FILE_DONE,
 typedef enum {NOSEG, DATASEG, TEXTSEG} segtype;
 
 int		tokennum;
-int		inline, outline;
+int		in_line, out_line;
 
 char	*token;
 char	tokens[MAX_TOKENS][MAX_TOKEN_LENGTH+1];
@@ -758,7 +758,7 @@ int	numparse = sizeof (parsedata) / sizeof (parsedata[0]);
 
 void errorexit (void)
 {
-	fprintf (stderr, "In line: %d, out line: %d\n", inline, outline);
+	fprintf (stderr, "In line: %d, out line: %d\n", in_line, out_line);
 	exit (1);
 }
 
@@ -968,7 +968,7 @@ tokenstat parseline (void)
 				else
 					printf ("\n");
 
-				outline++;
+				out_line++;
 			}
 			return PARSED_OKAY;
 
@@ -1025,13 +1025,13 @@ void main (int argc, char **argv)
 
 	printf (" .386P\n"
             " .model FLAT\n");
-	inline = 1;
-	outline = 3;
+	in_line = 1;
+	out_line = 3;
 
 	for ( ;; )
 	{
 		stat = parseline ();
-		inline++;
+		in_line++;
 
 		switch (stat)
 		{
