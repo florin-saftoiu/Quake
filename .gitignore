@@ -363,3 +363,4 @@ FodyWeavers.xsd
 
 # Quake specific files
 ID1/
+debug_gl
